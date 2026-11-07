@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="hardware/oneplus"              name="LineageOS/android_hardware_oneplus"                   remote="github" revision="refs/heads/lineage-22.2" />
+  <project path="vendor/oneplus/cheeseburger"   name="TheMuppets/proprietary_vendor_oneplus_cheeseburger"   remote="github" revision="refs/heads/lineage-22.2" />
+  <project path="vendor/oneplus/msm8998-common" name="TheMuppets/proprietary_vendor_oneplus_msm8998-common" remote="github" revision="refs/heads/lineage-22.2" />
+</manifest>
+

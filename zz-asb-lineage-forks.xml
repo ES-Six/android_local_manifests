@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/external/conscrypt" />
+  <project path="external/conscrypt" name="LineageOS/android_external_conscrypt" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/external/freetype" />
+  <project path="external/freetype" name="LineageOS/android_external_freetype" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/external/libhevc" />
+  <project path="external/libhevc" name="LineageOS/android_external_libhevc" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/external/robolectric" />
+  <project path="external/robolectric" name="LineageOS/android_external_robolectric" remote="github" revision="refs/heads/lineage-22.2" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <remove-project name="platform/packages/apps/TV" />
+  <project path="packages/apps/TV" name="LineageOS/android_packages_apps_TV" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
+  <project path="packages/services/BuiltInPrintService" name="LineageOS/android_packages_services_BuiltInPrintService" remote="github" revision="refs/heads/lineage-22.2" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="platform/system/ca-certificates" />
+  <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/system/incremental_delivery" />
+  <project path="system/incremental_delivery" name="LineageOS/android_system_incremental_delivery" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/system/libfmq" />
+  <project path="system/libfmq" name="LineageOS/android_system_libfmq" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/system/libufdt" />
+  <project path="system/libufdt" name="LineageOS/android_system_libufdt" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+</manifest>
