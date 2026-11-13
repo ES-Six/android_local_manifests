@@ -18,4 +18,18 @@
   <project path="system/libfmq" name="LineageOS/android_system_libfmq" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
   <remove-project name="platform/system/libufdt" />
   <project path="system/libufdt" name="LineageOS/android_system_libufdt" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/external/aac" />
+  <project path="external/aac" name="LineageOS/android_external_aac" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/external/libopenapv" />
+  <project path="external/libopenapv" name="LineageOS/android_external_libopenapv" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/external/tremolo" />
+  <project path="external/tremolo" name="LineageOS/android_external_tremolo" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <project path="hardware/nxp/nfc" name="LineageOS/android_hardware_nxp_nfc" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="platform/packages/modules/NeuralNetworks" />
+  <project path="packages/modules/NeuralNetworks" name="LineageOS/android_packages_modules_NeuralNetworks" remote="github" revision="refs/heads/lineage-22.2" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="platform/system/keymint" />
+  <project path="system/keymint" name="LineageOS/android_system_keymint" remote="github" revision="refs/heads/lineage-22.2" groups="pdk" />
+  <remove-project name="trusty/lib" />
+  <project path="trusty/user/base" name="LineageOS/android_trusty_user_base" remote="github" revision="refs/heads/lineage-22.2" groups="trusty,pdk" />
 </manifest>

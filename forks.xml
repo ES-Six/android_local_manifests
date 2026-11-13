@@ -36,6 +36,12 @@
   <remove-project name="crdroidandroid/android_system_media" />
   <project path="system/media" name="android_system_media" remote="es-six" groups="pdk,es-six" />
 
+  <remove-project name="crdroidandroid/android_frameworks_native" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="es-six" groups="pdk,es-six" />
+
+  <remove-project name="crdroidandroid/android_lineage-sdk" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="es-six" groups="es-six" />
+
   <!-- forked crDroid OnePlus 5 : device trees and kernel -->
   <project path="device/oneplus/cheeseburger" name="android_device_oneplus_cheeseburger" remote="es-six" groups="es-six" />
   <project path="device/oneplus/msm8998-common" name="android_device_oneplus_msm8998-common" remote="es-six" groups="es-six" />
